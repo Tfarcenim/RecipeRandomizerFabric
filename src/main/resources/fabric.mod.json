@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "reciperandomizer",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -19,11 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "reciperandomizer.mixins.json"
   ],
 
   "depends": {
